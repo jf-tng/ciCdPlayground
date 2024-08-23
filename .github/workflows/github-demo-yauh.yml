@@ -16,7 +16,7 @@ jobs:
       - name: integration tests
         run: |
           yarn build
-          yarn tests:e2e
+          yarn test:e2e
       - name: Test Summary
         uses: test-summary/action@v2
         with:
